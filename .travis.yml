@@ -26,5 +26,5 @@ env:
   - VERSION=2.12.2
 
 script:
-  - docker build -t abigail/scala:local "$VERSION" 
-  - ./test abigail/scala:local
+  - docker build -t ddugovic/scala:local "$VERSION" 
+  - ./test ddugovic/scala:local
