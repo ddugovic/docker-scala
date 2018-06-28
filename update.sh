@@ -29,6 +29,8 @@ declare -a jdk8_versions=(
 	2.12.4
 	2.12.5
 	2.12.6
+	2.12.6
+	2.13.0
 )
 
 function generate_dockerfile {
